@@ -1,0 +1,1284 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Hanken+Grotesk:wght@500&family=Happy+Monkey&family=Inter:wght@500&family=Karla:wght@500&family=Kumbh+Sans&family=League+Spartan:wght@800&family=Lexend+Deca&family=Open+Sans:wght@700&family=Orbitron&family=Outfit:wght@400;500&family=Overpass&family=Poppins:ital,wght@0,400;0,500;0,600;1,400&family=Roboto:wght@400;700&family=Spinnaker&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* navbar css */
+.nav-bar {
+  height: 83px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f7faff;
+}
+
+.nav-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 181px;
+}
+.services ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 40px;
+}
+.services ul li {
+  list-style: none;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 500;
+}
+.services ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+.accounts ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 40px;
+}
+.accounts ul li {
+  list-style: none;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 500;
+}
+.accounts ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+ul li ul.dropdown li {
+  display: block;
+  padding: 20px 25px;
+  color: aqua;
+  text-decoration: none;
+
+  text-align: center;
+  font-size: 20px;
+}
+ul li ul.dropdown {
+  width: 5%;
+  display: none;
+  position: absolute;
+  z-index: 999;
+  background: white;
+}
+ul li:hover ul.dropdown {
+  display: block;
+}
+
+/* navbar css end here  */
+
+/* main body start here  */
+.home-page,
+.learn-more {
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+.home-page img,
+.learn-more img {
+  max-width: 100%;
+}
+.home-page-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  gap: 24px;
+
+  position: absolute;
+  top: 30%;
+  left: 17%;
+}
+.home-page-content h1 {
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 75px;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  color: #3c3c3c;
+  width: 647px;
+  height: 225px;
+}
+#so-easy {
+  color: #4885e1;
+}
+
+.home-page-content p {
+  font-family: "Roboto";
+  width: 53%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+.home-page-btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+  gap: 24px;
+}
+.home-page-btn #btn1,
+.learn-more-content button,
+.get-personal-expert-content button,
+.home-about-us-content button {
+  padding: 12px 24px;
+
+  gap: 8px;
+
+  align-items: center;
+  text-align: center;
+  text-transform: capitalize;
+  background: #4885e1;
+  border-radius: 5px;
+  color: #ffffff;
+  border: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+}
+.home-page-btn #btn1 img {
+  width: 18.72px;
+  height: 17.28px;
+}
+.home-page-btn #btn2,
+.more-options button {
+  padding: 12px 24px;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: capitalize;
+  background: #f2b04d;
+  border-radius: 5px;
+  color: #3c3c3c;
+  border: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+/* home main page end here */
+
+/* explore section start here  */
+.best-sellers {
+  background: #ebf3ff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  padding: 40px 0px;
+}
+.best-sellers-headings {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0px;
+  gap: 474px;
+}
+.best-sellers-headings h1 {
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 37.8975px;
+  line-height: 48px;
+}
+
+.best-sellers .wrapper-slider .crousal {
+  width: 100%;
+  display: flex;
+  gap: 27px;
+}
+
+.best-sellers .wrapper-slider .card {
+  background: #fff;
+  border: 4px solid #f4f4f4;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 24px;
+  gap: 16px;
+  align-items: flex-start;
+}
+
+.best-sellers .wrapper-slider .card h5 {
+  font-family: "Orbitron";
+  font-weight: 700;
+  font-size: 20px;
+}
+#video {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 160%;
+}
+#card-para {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+}
+#price {
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  color: #4885e1;
+}
+.best-sellers .wrapper-slider .card button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 24px;
+  gap: 8px;
+  background: #4885e1;
+  border-radius: 5px;
+  border: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 160%;
+  color: #fff;
+}
+
+/* explore section ends here  */
+
+/* learn more start here  */
+
+.learn-more .learn-more-content-list {
+  left: 1097px;
+  top: 176px;
+}
+
+.learn-more-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  gap: 24px;
+
+  position: absolute;
+  top: 23%;
+  left: 55%;
+}
+.learn-more-content h2 {
+  width: 520px;
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 48px;
+  text-transform: capitalize;
+  color: #3c3c3c;
+}
+.learn-more-content-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 400;
+  color: #3c3c3c;
+}
+.learn-more-content-list img {
+  width: 18px;
+  height: 17px;
+}
+
+/* you can learn ends here  */
+.reason-to-buy {
+  background: #ebf3ff;
+
+  padding: 65px 332px;
+  position: relative;
+}
+.reason-to-buy-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 64px;
+}
+.reason-to-buy-content .features {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 17px;
+}
+.reason-to-buy-content .features h5 {
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+}
+.reason-to-buy-content .features p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+}
+
+.board-list {
+  position: absolute;
+}
+
+/* reason-to-by ends here  */
+
+/* need help section starts here  */
+.get-personal-expert {
+  position: relative;
+  padding: 100px 0px 0px;
+}
+
+.overlap-img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -100%);
+}
+
+.get-personal-expert-content {
+  width: 100%;
+  margin: 0px auto;
+
+  text-align: center;
+  padding: 24px 0px;
+  transform: translate(0%, -110%);
+}
+
+.get-personal-expert-content h1 {
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 75px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+}
+.get-personal-expert-content p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  text-align: center;
+  padding: 24px;
+  width: 50%;
+
+  margin: 0 auto;
+}
+
+/* need help section ends here  */
+
+/* about us starts here  */
+.home-about-us {
+  position: relative;
+}
+.home-about-us img {
+  position: relative;
+}
+#home-about-us-img {
+  left: 46%;
+  top: 10%;
+  position: absolute;
+}
+.home-about-us-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+
+  position: absolute;
+
+  left: 18%;
+  top: 25%;
+}
+.home-about-us-content h2 {
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 37.8975px;
+  line-height: 48px;
+  text-transform: capitalize;
+  color: #3c3c3c;
+  width: 50%;
+}
+.home-about-us-content p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #3c3c3c;
+  width: 52%;
+}
+
+/* about us ends here  */
+
+/* home page footer start here  */
+.home-page-footer {
+  background: #ebf3ff;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.home-page-footer-frame {
+  padding: 59px 331px 111px 331px;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  gap: 129px;
+}
+
+.home-page-footer-quick-links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+  list-style: none;
+}
+.home-page-footer-quick-links h5,
+.home-page-footer-Contact h5,
+.home-page-footer-support h5 {
+  font-size: 16px;
+  font-family: "Roboto";
+  font-weight: 500;
+  line-height: 25.6px;
+}
+.home-page-footer-quick-links p a {
+  font-size: 16px;
+  font-family: "Roboto";
+  font-weight: 400;
+  text-decoration: none;
+  color: #3c3c3c;
+}
+.home-page-footer-Contact {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+
+  width: 155px;
+  height: 172px;
+}
+.home-page-footer-Contact p,
+.home-page-footer-support p {
+  font-size: 16px;
+  font-family: "Roboto";
+  font-weight: 400;
+  text-decoration: none;
+  color: #3c3c3c;
+  line-height: 25.6px;
+}
+
+.home-page-footer-support img {
+  margin-top: 47px;
+}
+.footer-bottom {
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: space-around;
+}
+.footer-bottom div {
+  display: flex;
+  gap: 2rem;
+}
+.footer-bottom div a {
+  text-decoration: none;
+  color: #3c3c3c;
+}
+
+/* about us page css file written here   */
+
+/* about us page css file written here   */
+
+/* about us page css file written here   */
+
+/* about us page css file written here   */
+
+/* about us page css file written here   */
+
+/* about us page css file written here   */
+.about-us-main {
+  position: relative;
+}
+.about-us-main img {
+  position: absolute;
+}
+#about-us-main-img {
+  left: 1000px;
+  top: 80px;
+}
+.about-us-main-content {
+  display: flex;
+  flex-direction: column;
+
+  /* 
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px;
+  
+  */
+  gap: 24px;
+
+  position: absolute;
+  width: 599px;
+  height: 229px;
+  left: 331px;
+  top: 235px;
+}
+.about-us-main-content h1 {
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+
+  text-transform: capitalize;
+  color: #3c3c3c;
+}
+.about-us-main-content p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #3c3c3c;
+  width: 599px;
+}
+
+/* about us main content section  */
+
+/* index html reason to buy */
+#reason-to-buy-about {
+  margin-top: 37%;
+}
+/* index html reason to buy */
+
+/* about us why section start here  */
+.about-us-why {
+  position: relative;
+}
+.about-us-why img {
+  width: 100%;
+}
+.about-us-why-content {
+  position: absolute;
+  width: 505px;
+  height: 276px;
+  left: 1097px;
+  top: 235px;
+}
+
+.about-us-why-content h2 {
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 37.8975px;
+  line-height: 48px;
+  text-transform: capitalize;
+  color: #3c3c3c;
+  width: 358px;
+}
+.about-us-why-content p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #3c3c3c;
+  padding-top: 24px;
+}
+
+/* about us page css file written here   */
+
+/* about us page css file written here   */
+
+/* about us page css file written here   */
+
+/* about us page css file written here   */
+
+/* about us page css file written here   */
+
+/* about us page css file written here   */
+
+/* terms and condition css file written here  */
+/* terms and condition css file written here  */
+/* terms and condition css file written here  */
+/* terms and condition css file written here  */
+/* terms and condition css file written here  */
+
+/* main terms and condition body  */
+.terms-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.terms-body-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  padding: 40px 0px;
+  gap: 32px;
+
+  position: absolute;
+  width: 1068px;
+  height: 2618px;
+  left: 426px;
+
+  background: rgba(235, 243, 255, 0.2);
+}
+.terms-body-content img {
+  position: relative;
+}
+
+.terms-body-content h5 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 160%;
+}
+
+.terms-body-content p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+}
+
+/* main terms and condition body  ends */
+
+/* terms and condition css file written here  */
+/* terms and condition css file written here  */
+/* terms and condition css file written here  */
+/* terms and condition css file written here  */
+/* terms and condition css file written here  */
+
+/* privacy policy css written here  */
+
+/* privacy policy css written here  */
+
+/* privacy policy css written here  */
+
+/* privacy policy css written here  */
+
+/* privacy policy css written here  */
+
+/* main privacy policy body  */
+
+.privacy-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.privacy-body-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  padding: 40px 0px;
+  gap: 32px;
+
+  position: absolute;
+  width: 1068px;
+  height: 2618px;
+  left: 426px;
+
+  background: rgba(235, 243, 255, 0.2);
+}
+.terms-body-content img {
+  position: relative;
+}
+.privacy-body-content h1 {
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 37.8975px;
+  line-height: 48px;
+  /* identical to box height */
+
+  text-transform: capitalize;
+
+  /* Dark / 1 */
+
+  color: #262f35;
+}
+
+.privacy-body-content p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+}
+
+/* main privacy policy body  ends */
+/* privacy policy css written here  */
+
+/* privacy policy css written here  */
+
+/* privacy policy css written here  */
+
+/* privacy policy css written here  */
+
+/* privacy policy css written here  */
+
+/* error css file written here  */
+/* error css file written here  */
+/* error css file written here  */
+/* error css file written here  */
+/* error css file written here  */
+.error-main {
+  position: relative;
+}
+.error-main img {
+  position: relative;
+}
+
+.error-main-content {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  padding: 80px 0px;
+  gap: 13px;
+  position: absolute;
+  left: 596px;
+  top: 0px;
+}
+.error-main-content-text {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  align-items: center;
+}
+.error-main-content-text h1 {
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 37.8975px;
+  line-height: 48px;
+  /* identical to box height */
+
+  text-align: center;
+  text-transform: capitalize;
+}
+.error-main-content-text p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  /* or 26px */
+  width: 354px;
+
+  text-align: center;
+
+  /* Dark / 3 */
+
+  color: #526572;
+}
+.error-main-content-text button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 14px 24px;
+  gap: 8px;
+  color: #fff;
+  width: 178px;
+  height: 50px;
+
+  /* Primary */
+  border: none;
+  background: #4885e1;
+  border-radius: 5px;
+}
+
+/* error css file written here  */
+/* error css file written here  */
+/* error css file written here  */
+/* error css file written here  */
+/* error css file written here  */
+
+/* congratulaation css files here  */
+
+/* congratulaation css files here  */
+/* congratulaation css files here  */
+/* congratulaation css files here  */
+/* congratulaation css files here  */
+
+.congratulation-area #cup {
+  position: absolute;
+  top: 39%;
+  left: 50%;
+}
+
+.congratulation-area .congratulation-content {
+  position: absolute;
+  top: 40%;
+  left: 20%;
+}
+
+/* congratulaation css files here  */
+/* congratulaation css files here  */
+/* congratulaation css files here  */
+/* congratulaation css files here  */
+
+/* order complete section form here  */
+/* order complete section form here  */
+/* order complete section form here  */
+/* order complete section form here  */
+/* order complete section form here  */
+/* order complete section form here  */
+
+.congratulation-area .container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 4px solid #ebf3ff;
+  border-radius: 5px;
+}
+.congratulation-area .container div {
+  border-bottom: 4px solid #ebf3ff;
+}
+
+.congratulation-area h1 {
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28.4302px;
+  line-height: 36px;
+  /* identical to box height */
+
+  text-transform: capitalize;
+
+  /* Dark / 1 */
+
+  color: #262f35;
+}
+h2 {
+  font-size: 18px;
+  font-weight: bold;
+}
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-top: 0;
+}
+.congratulation-area ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 24px;
+  gap: 24px;
+}
+.congratulation-area .head {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 160%;
+  /* identical to box height, or 26px */
+
+  text-transform: capitalize;
+
+  /* Neutral/800 */
+
+  color: #3c3c3c;
+}
+.congratulation-area li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  gap: 54px;
+}
+.congratulation-area #head {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 160%;
+  /* identical to box height, or 26px */
+
+  text-transform: capitalize;
+
+  /* Neutral/800 */
+
+  color: #3c3c3c;
+}
+.congratulation-area li span {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  /* or 26px */
+
+  /* Dark / 1 */
+
+  color: #262f35;
+}
+li:last-child {
+  margin-bottom: 0;
+}
+.subtotal {
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.subtotal span {
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28.4302px;
+  line-height: 36px;
+  /* identical to box height */
+
+  text-transform: capitalize;
+
+  /* Dark / 1 */
+
+  color: #262f35;
+}
+.subtotal p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  /* identical to box height, or 26px */
+
+  /* Primary */
+
+  color: #4885e1;
+}
+.coupon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  /* or 26px */
+
+  /* Secondary */
+
+  color: #f2b04d;
+}
+.coupon span {
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28.4302px;
+  line-height: 36px;
+  /* identical to box height */
+
+  text-transform: capitalize;
+
+  /* Dark / 1 */
+
+  color: #262f35;
+}
+.coupon input {
+  border: 1px solid #ccc;
+  padding: 5px;
+  margin-right: 10px;
+}
+.total {
+  font-weight: bold;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.total span {
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28.4302px;
+  line-height: 36px;
+  /* identical to box height */
+
+  text-transform: capitalize;
+
+  /* Dark / 1 */
+
+  color: #262f35;
+}
+
+.congratulation-content {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.congratulation-content h2 {
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 37.8975px;
+  line-height: 48px;
+  /* identical to box height */
+
+  text-transform: capitalize;
+
+  /* Neutral/800 */
+
+  color: #3c3c3c;
+}
+.congratulation-content h3 {
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28.4302px;
+  line-height: 36px;
+  /* identical to box height */
+
+  text-transform: capitalize;
+
+  /* Dark / 1 */
+
+  color: #262f35;
+}
+
+/* order complete section form here  */
+/* order complete section form here  */
+/* order complete section form here  */
+/* order complete section form here  */
+/* order complete section form here  */
+/* order complete section form here  */
+
+/* expert advice css file  */
+/* expert advice css file  */
+/* expert advice css file  */
+/* expert advice css file  */
+/* expert advice css file  */
+
+.expert-advice-top #mobile {
+  position: absolute;
+  top: 15%;
+  left: 54%;
+}
+
+.expert-advice-top-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  gap: 24px;
+
+  position: absolute;
+  top: 36%;
+  left: 17%;
+}
+.expert-advice-top-content h1 {
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 75px;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+
+  /* Neutral/800 */
+
+  color: #3c3c3c;
+}
+.expert-advice-top-content p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  /* or 26px */
+
+  /* Neutral/800 */
+
+  color: #3c3c3c;
+}
+
+/* girl section  */
+.expert-advice-girl-section {
+  background: #ebf3ff;
+}
+
+.expert-advice-girl-section-content {
+  position: absolute;
+  top: 105%;
+  left: 55%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  gap: 24px;
+}
+.expert-advice-girl-section-content h2 {
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 37.8975px;
+  line-height: 48px;
+  text-transform: capitalize;
+
+  /* Neutral/800 */
+
+  color: #3c3c3c;
+}
+.expert-advice-girl-section-content p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  /* or 26px */
+
+  /* Neutral/800 */
+
+  color: #3c3c3c;
+}
+.expert-advice-girl-section-content button {
+  padding: 14px 24px;
+  gap: 8px;
+
+  /* Primary */
+  width: 127px;
+  height: 50px;
+  color: #fff;
+  border: none;
+  background: #4885e1;
+  border-radius: 5px;
+}
+
+/* form expert part  */
+
+.expert-advice-form-section {
+  margin-top: 121px;
+}
+.expert-advice-form-section .contact-form {
+  position: absolute;
+  top: 163%;
+  left: 332px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.contact-form h3 {
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28.4302px;
+  line-height: 36px;
+  text-transform: capitalize;
+
+  /* Neutral/700 */
+
+  color: #656565;
+}
+
+.contact-form h2 {
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 37.8975px;
+  line-height: 48px;
+  text-transform: capitalize;
+
+  /* Neutral/800 */
+
+  color: #3c3c3c;
+}
+.contact-form span {
+  color: #f2b04d;
+}
+.contact-form h4 {
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28.4302px;
+  line-height: 36px;
+  /* identical to box height */
+
+  text-transform: capitalize;
+
+  /* Dark / 1 */
+
+  color: #262f35;
+}
+.contact-form form #name #email #phone {
+}
+input[type="text"] {
+  width: 300px;
+  height: 40px;
+  font-size: 16px;
+}
+input[type="email"] {
+  width: 300px;
+  height: 40px;
+  font-size: 16px;
+}
+input[type="tel"] {
+  width: 300px;
+  height: 40px;
+  font-size: 16px;
+}
+textarea[id="input"] {
+  width: 300px;
+  height: 40px;
+  font-size: 16px;
+}
+
+.ch-1 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
